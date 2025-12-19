@@ -1,2 +1,8 @@
-# CheeseStick-Website
+## CheeseStick-Website
 A website to give an overview on the CheeseStick project
+
+# Docs
+
+flask:
+
+https://flask.palletsprojects.com/en/stable/tutorial/factory/
