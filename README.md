@@ -3,6 +3,6 @@ A website to give an overview on the CheeseStick project
 
 # Docs
 
-flask:
+Flask:
 
-https://flask.palletsprojects.com/en/stable/tutorial/factory/
+https://flask.palletsprojects.com/en/stable/
