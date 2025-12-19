@@ -9,7 +9,7 @@ def home():
 if __name__ == '__main__':
     app.run(debug=True)
 
-#organizational structure of the project suggested by flask docs:
+#organizational structure of the project suggested by flask docs. I did not get munch on js organization in here:
 """
 /home/user/Projects/flask-tutorial
 ├── flaskr/
@@ -28,7 +28,8 @@ if __name__ == '__main__':
 │   │       ├── index.html
 │   │       └── update.html
 │   └── static/
-│       └── style.css
+│       ├── style.css
+|       └── script.js
 ├── tests/
 │   ├── conftest.py
 │   ├── data.sql
