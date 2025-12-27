@@ -36,5 +36,6 @@ class Database:
         self.cursor.execute("SELECT * FROM CheeseStick WHERE id=?", (data_id,))
         return self.cursor.fetchone()
     
-    def close(self):
+    #closes the connection when the object is deleted
+    def __del__(self):
         self.connection.close()
