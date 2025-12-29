@@ -1,6 +1,6 @@
-from flask_login import LoginManager
-from src.main import app
-from src.user_sign_in.user import User
+from flask_login import LoginManager    
+from cheesestick.main import app
+from cheesestick.user_sign_in.user import User
 
 login_manager = LoginManager()
 login_manager.init_app(app)
