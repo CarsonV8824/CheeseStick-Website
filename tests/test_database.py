@@ -1,4 +1,4 @@
-from src.database.database import Database
+from cheesestick.database.database import Database
 import pytest
 
 #this file will test all databases
